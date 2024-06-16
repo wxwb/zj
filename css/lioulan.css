@@ -1,0 +1,94 @@
+/* -------------------------------------浏览模块-------------------------------------- */
+#lioulan{
+    /* 大小 */
+    width: 85%;
+    height: 100%;
+    /* 形状 */
+    background-color:rgb(239, 239, 239);
+    box-sizing: border-box;
+    /* 位置 */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#lioulan>div{
+    /* 大小 */
+    width: 100%;
+    height: 100%;
+    /*形状*/
+    /* background-color: #efefef; */
+    box-sizing: border-box;
+    /* 位置 */
+    position: absolute;
+}
+/*---------------------------------------浏览模块01-网站首页--------------------------------*/
+#lioulan-01{
+    background: #fff url('../resources/image/mc/MC01.jpg') center no-repeat;
+    background-size: cover;
+    /* 图层 */
+    z-index: 9;
+}
+/* 时钟 */
+.lioulan-01-shizhong{
+    width: 90px;
+    /* 位置 */
+    margin: 40px 0 0 40px;
+    padding: 5px;
+    /* 文字样式 */
+    color: rgb(218, 218, 218);
+    font: normal 800 10px normal;
+    letter-spacing: 5px;
+    /* 形状 */
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px rgb(253, 253, 253);/*给div增加阴影*/
+}
+/* 史蒂夫 */
+.lioulan-01-shidifu{
+    /* 大小 */
+    width: 250px;
+    height: 200px;
+    /* 位置 */
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    /* 形状 */
+    background-color: rgba(233, 233, 233, 0);
+}
+.lioulan-01-shidifu p{
+    /* 文字样式 */
+    font: normal 400 10px normal;
+    color: #efefef;
+    /* 位置 */
+    display: none;
+}
+.lioulan-01-shidifu:hover p{
+    display: block;
+}
+
+
+#lioulan-03{
+    background-color:#3e8bf8;
+    /* 图层 */
+    z-index: 7;
+}
+#lioulan-04{
+    background-color:#a5adf6;
+    /* 图层 */
+    z-index: 6;
+}
+
+#lioulan-06{
+    background-color: #f99b0d;
+    /* 图层 */
+    z-index: 4;
+}
+#lioulan-07{
+    background-color: #ffd05c;
+    /* 图层 */
+    z-index: 3;
+}
+#lioulan-08{
+    background-color: #ffac3e;
+    /* 图层 */
+    z-index: 2;
+}

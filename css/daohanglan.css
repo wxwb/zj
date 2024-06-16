@@ -1,0 +1,65 @@
+/* --------------------------------导航栏样式--------------------------- */
+#daohanglan{
+    /* 大小 */
+    width: 15%;
+    height: 100%;
+    /* 形状 */
+    background-color: rgba(254,254,254,1);
+    /* 位置 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 图层 */
+    z-index: 10;
+}
+/* 导航栏顶部-头像、祝福 */
+.daohanglan-top{
+    height: 30%;
+}
+.daohanglan-top-img{
+    height: 80%;
+    background: #fff url('../resources/image/mc/MC02.jpg') center no-repeat;
+    background-size: cover;
+}
+.daohanglan-top-text{
+    /* 字体样式 */
+    font:normal 400 10px normal;
+    color: rgb(159, 172, 178);
+    /*位置*/
+    text-align: center;
+    margin: 15px auto;
+}
+/*导航栏-内容*/
+.daohanglan-neiron-ul{
+    /*字体样式*/
+    font: normal 400 10px normal;
+    color:  #859195;
+    background-color:rgb(249, 249, 249);
+}
+.daohanglan-neiron-ul li{
+    /* 大小 */
+    height: 40px;
+    line-height: 40px;
+    /* 形状 */
+    cursor: pointer;/*光标指针*/
+    /*位置*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items : center;
+    overflow: hidden;
+}
+.daohanglan-neiron-ul li:hover{
+    background-color: #ececec;
+}
+
+.daohanglan-neiron-ul img{
+    /* 大小 */
+    height: 20px;
+    /*位置*/
+    margin-right: 20px;
+}
+.daohanglan-neiron-ul li:hover img{
+    transition: 0.3s;
+    transform: scale(1.1);
+}

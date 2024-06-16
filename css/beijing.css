@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+}
+html,body{
+    text-align: center;
+    font-family: '宋体';
+}
+/*滚动条样式*/
+*::-webkit-scrollbar {
+    width: 8px;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(40, 40, 40, 0.6);
+}
+/* 背景图片 */
+#body-beijintu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* 背景图片样式 */
+    background: rgb(255, 255, 255) url('../resources/image/beijin.jpg') center no-repeat;
+    background-size: cover;
+}
+/* 打字样式 */
+#body-beijintu-p{
+    /*大小*/
+    font: normal 400 20px normal;
+    /* 形状 */
+    color: rgb(151, 149, 144);
+    /*位置*/
+    text-align: center; /*文本水平对齐且居中*/
+    height: 36px;       /*设置元素自身的高度*/
+    line-height: 36px;  /*设置元素内每行文字的高度*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+/* 主体内容 */
+#content{
+    /*大小*/
+    width: 80%;
+    height: 0;
+    /* 形状 */
+    background-color: rgba(249,249,249,0.7);
+    border-radius: 10px; /*圆角边框*/
+    box-shadow: 0px 0px 20px rgba(40,40,40,0.1);/*给div增加阴影*/
+    overflow: hidden; /*让子标签超过圆角的部分隐藏*/
+    transition: 0.5s; /*过渡效果，将鼠标悬停在一个 div 元素上，逐步改变盒子的某些样式*/
+    /* 位置 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /*图层*/
+    z-index: 1;
+}
