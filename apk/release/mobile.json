@@ -1,5 +1,5 @@
 {
-  "code": "246",
-  "name": "2.4.6",
-  "desc": "*  [共通] \n* 优化GO多线 \n* 更新exo 1.4.0 \n*  还原aes res base64 处理 \n* 修复exo升级后软解bug \n* python版本bug修复"
+  "code": "248",
+  "name": "2.4.8",
+  "desc": "*  [海涛追剧共通] \n* 优化GO多线 \n* 更新exo 1.4.0 \n*  还原aes res base64 处理 \n* 修复exo升级后软解bug \n* python版本bug修复"
 }
