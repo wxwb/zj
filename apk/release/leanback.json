@@ -1,5 +1,5 @@
 {
-  "code": "255",
-  "name": "2.5.5",
+  "code": "257",
+  "name": "2.5.7",
   "desc": "* [海涛追剧TV版] \n* 优化GO多线 \n* 更新exo 1.4.0 \n*  还原aes res base64 处理 \n* 修复exo升级后软解bug \n* python版本bug修复" 
 }
